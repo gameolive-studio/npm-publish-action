@@ -124,7 +124,7 @@ async function createTag(dir, config, version) {
 async function publishPackage(dir, config, version) {
   await run(
     dir,
-    "yarn",
+    "npm",
     "publish",
     "--non-interactive",
     "--new-version",
